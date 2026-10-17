@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Large raw map dumps (keep only the small extract in data/)
+data/*.pbf
+data/*.osm
+data/*.osm.bz2
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

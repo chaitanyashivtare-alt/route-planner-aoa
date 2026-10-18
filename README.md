@@ -29,8 +29,19 @@ pip install -r requirements.txt
 ## Status
 
 - [x] Repository scaffold
-- [ ] Load corridor graph from OpenStreetMap
-- [ ] Dijkstra and A* implementations
-- [ ] Metrics and benchmark experiments
-- [ ] Dashboard
+- [x] Load corridor graph from OpenStreetMap
+- [x] Dijkstra and A* implementations
+- [x] Metrics and benchmark experiments
+- [x] Dashboard
+- [ ] Scaling experiment
 - [ ] Report
+
+## Running
+
+```bash
+python src/load_graph.py                 # download the corridor graph (optional, data is committed)
+python experiments/make_queries.py       # regenerate the fixed test queries
+python experiments/run_benchmark.py      # run Dijkstra and A* on all queries
+streamlit run dashboard/app.py           # open the RouteScope dashboard
+python -m unittest discover -s tests -v  # run unit tests
+```

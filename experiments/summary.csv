@@ -1,0 +1,13 @@
+band,algorithm,queries,mean_nodes_expanded,mean_max_queue,mean_runtime_ms,optimal_rate,expansion_saving_pct
+long,A* (haversine),10,821.2,101.6,2.781,1.0,70.9
+long,A* (manhattan),10,414.2,91.3,1.666,0.2,85.3
+long,A* (zero),10,2825.8,83.5,6.0,1.0,0.0
+long,Dijkstra,10,2825.8,83.5,6.082,1.0,0.0
+medium,A* (haversine),10,382.6,51.5,1.204,1.0,78.0
+medium,A* (manhattan),10,253.5,44.8,0.863,0.2,85.4
+medium,A* (zero),10,1738.9,79.9,3.262,1.0,0.0
+medium,Dijkstra,10,1738.9,79.9,3.463,1.0,0.0
+short,A* (haversine),10,256.1,33.1,0.772,1.0,70.1
+short,A* (manhattan),10,201.1,32,0.661,0.5,76.5
+short,A* (zero),10,855.4,59.4,1.45,1.0,0.0
+short,Dijkstra,10,855.4,59.4,1.559,1.0,0.0

@@ -1,0 +1,121 @@
+query_id,band,straight_line_m,algorithm,found,path_cost_m,optimal,path_nodes,nodes_expanded,max_queue_size,runtime_ms
+S01,short,611.7,Dijkstra,True,3542.2,True,29,2326,115,4.464
+S01,short,611.7,A* (zero),True,3542.2,True,29,2326,115,4.57
+S01,short,611.7,A* (haversine),True,3542.2,True,29,683,52,2.137
+S01,short,611.7,A* (manhattan),True,3542.2,True,29,618,50,2.101
+S02,short,1243.2,Dijkstra,True,2489.9,True,36,460,30,0.696
+S02,short,1243.2,A* (zero),True,2489.9,True,36,460,30,0.615
+S02,short,1243.2,A* (haversine),True,2489.9,True,36,167,17,0.417
+S02,short,1243.2,A* (manhattan),True,2489.9,True,36,144,17,0.371
+S03,short,1313.6,Dijkstra,True,2190.7,True,31,364,26,0.668
+S03,short,1313.6,A* (zero),True,2190.7,True,31,364,26,0.463
+S03,short,1313.6,A* (haversine),True,2190.7,True,31,204,25,0.541
+S03,short,1313.6,A* (manhattan),True,2190.7,True,31,165,27,0.47
+S04,short,901.2,Dijkstra,True,2990.8,True,37,1721,96,3.464
+S04,short,901.2,A* (zero),True,2990.8,True,37,1721,96,3.274
+S04,short,901.2,A* (haversine),True,2990.8,True,37,365,54,1.133
+S04,short,901.2,A* (manhattan),True,3037.4,False,39,280,49,0.979
+S05,short,1224.3,Dijkstra,True,2072.0,True,34,843,68,1.444
+S05,short,1224.3,A* (zero),True,2072.0,True,34,843,68,1.253
+S05,short,1224.3,A* (haversine),True,2072.0,True,34,301,42,0.872
+S05,short,1224.3,A* (manhattan),True,2084.2,False,32,189,47,0.632
+S06,short,565.0,Dijkstra,True,824.0,True,20,223,40,0.297
+S06,short,565.0,A* (zero),True,824.0,True,20,223,40,0.296
+S06,short,565.0,A* (haversine),True,824.0,True,20,45,20,0.12
+S06,short,565.0,A* (manhattan),True,824.0,True,20,33,19,0.114
+S07,short,1089.6,Dijkstra,True,1320.9,True,27,487,51,0.605
+S07,short,1089.6,A* (zero),True,1320.9,True,27,487,51,0.67
+S07,short,1089.6,A* (haversine),True,1320.9,True,27,82,28,0.218
+S07,short,1089.6,A* (manhattan),True,1324.2,False,29,33,22,0.155
+S08,short,742.4,Dijkstra,True,2203.3,True,28,1051,76,1.648
+S08,short,742.4,A* (zero),True,2203.3,True,28,1051,76,1.613
+S08,short,742.4,A* (haversine),True,2203.3,True,28,282,41,0.724
+S08,short,742.4,A* (manhattan),True,2206.3,False,25,198,34,0.63
+S09,short,1492.1,Dijkstra,True,2982.8,True,49,845,57,1.746
+S09,short,1492.1,A* (zero),True,2982.8,True,49,845,57,1.44
+S09,short,1492.1,A* (haversine),True,2982.8,True,49,382,34,1.419
+S09,short,1492.1,A* (manhattan),True,3073.6,False,48,314,38,1.034
+S10,short,789.6,Dijkstra,True,1063.6,True,20,234,35,0.561
+S10,short,789.6,A* (zero),True,1063.6,True,20,234,35,0.307
+S10,short,789.6,A* (haversine),True,1063.6,True,20,50,18,0.139
+S10,short,789.6,A* (manhattan),True,1063.6,True,20,37,17,0.12
+M01,medium,2298.1,Dijkstra,True,2984.4,True,33,860,49,1.674
+M01,medium,2298.1,A* (zero),True,2984.4,True,33,860,49,1.382
+M01,medium,2298.1,A* (haversine),True,2984.4,True,33,151,31,0.43
+M01,medium,2298.1,A* (manhattan),True,2984.4,True,33,101,30,0.31
+M02,medium,2970.8,Dijkstra,True,4190.3,True,39,2058,74,4.235
+M02,medium,2970.8,A* (zero),True,4190.3,True,39,2058,74,3.939
+M02,medium,2970.8,A* (haversine),True,4190.3,True,39,566,68,1.768
+M02,medium,2970.8,A* (manhattan),True,4198.3,False,36,320,63,1.094
+M03,medium,2220.1,Dijkstra,True,2858.5,True,38,941,54,1.904
+M03,medium,2220.1,A* (zero),True,2858.5,True,38,941,54,1.539
+M03,medium,2220.1,A* (haversine),True,2858.5,True,38,252,41,0.714
+M03,medium,2220.1,A* (manhattan),True,2858.5,True,38,148,38,0.44
+M04,medium,2121.4,Dijkstra,True,2281.3,True,24,883,58,1.675
+M04,medium,2121.4,A* (zero),True,2281.3,True,24,883,58,1.403
+M04,medium,2121.4,A* (haversine),True,2281.3,True,24,63,25,0.194
+M04,medium,2121.4,A* (manhattan),True,2453.9,False,30,35,21,0.126
+M05,medium,3400.9,Dijkstra,True,3995.9,True,49,2902,121,5.813
+M05,medium,3400.9,A* (zero),True,3995.9,True,49,2902,121,5.84
+M05,medium,3400.9,A* (haversine),True,3995.9,True,49,446,75,1.489
+M05,medium,3400.9,A* (manhattan),True,3996.2,False,37,62,25,0.225
+M06,medium,2394.1,Dijkstra,True,3395.3,True,38,2059,91,3.846
+M06,medium,2394.1,A* (zero),True,3395.3,True,38,2059,91,3.758
+M06,medium,2394.1,A* (haversine),True,3395.3,True,38,331,72,1.07
+M06,medium,2394.1,A* (manhattan),True,3403.2,False,36,167,55,0.539
+M07,medium,2212.2,Dijkstra,True,3471.9,True,55,2064,81,3.87
+M07,medium,2212.2,A* (zero),True,3471.9,True,55,2064,81,3.881
+M07,medium,2212.2,A* (haversine),True,3471.9,True,55,549,47,1.737
+M07,medium,2212.2,A* (manhattan),True,3636.3,False,52,499,63,1.721
+M08,medium,2355.0,Dijkstra,True,4132.7,True,55,2150,86,4.523
+M08,medium,2355.0,A* (zero),True,4132.7,True,55,2150,86,4.18
+M08,medium,2355.0,A* (haversine),True,4132.7,True,55,628,46,1.985
+M08,medium,2355.0,A* (manhattan),True,4200.3,False,55,543,46,2.003
+M09,medium,2735.2,Dijkstra,True,3092.4,True,40,1284,99,2.768
+M09,medium,2735.2,A* (zero),True,3092.4,True,40,1284,99,2.473
+M09,medium,2735.2,A* (haversine),True,3092.4,True,40,188,59,0.621
+M09,medium,2735.2,A* (manhattan),True,3124.4,False,43,74,50,0.272
+M10,medium,2717.5,Dijkstra,True,5383.6,True,74,2188,86,4.322
+M10,medium,2717.5,A* (zero),True,5383.6,True,74,2188,86,4.227
+M10,medium,2717.5,A* (haversine),True,5383.6,True,74,652,51,2.036
+M10,medium,2717.5,A* (manhattan),True,5451.3,False,74,586,57,1.903
+L01,long,4281.1,Dijkstra,True,5436.1,True,64,3199,86,6.844
+L01,long,4281.1,A* (zero),True,5436.1,True,64,3199,86,6.509
+L01,long,4281.1,A* (haversine),True,5436.1,True,64,803,108,2.883
+L01,long,4281.1,A* (manhattan),True,5512.2,False,62,405,87,1.688
+L02,long,4737.5,Dijkstra,True,5682.6,True,84,2845,79,6.165
+L02,long,4737.5,A* (zero),True,5682.6,True,84,2845,79,6.318
+L02,long,4737.5,A* (haversine),True,5682.6,True,84,414,78,1.343
+L02,long,4737.5,A* (manhattan),True,5682.6,True,84,229,86,0.956
+L03,long,4779.3,Dijkstra,True,6276.5,True,85,3200,93,7.57
+L03,long,4779.3,A* (zero),True,6276.5,True,85,3200,93,7.868
+L03,long,4779.3,A* (haversine),True,6276.5,True,85,952,90,3.261
+L03,long,4779.3,A* (manhattan),True,6276.5,True,85,362,86,1.625
+L04,long,4419.3,Dijkstra,True,5786.6,True,88,2550,84,5.492
+L04,long,4419.3,A* (zero),True,5786.6,True,88,2550,84,5.274
+L04,long,4419.3,A* (haversine),True,5786.6,True,88,1002,88,3.56
+L04,long,4419.3,A* (manhattan),True,6083.6,False,73,441,85,1.728
+L05,long,4339.0,Dijkstra,True,4733.7,True,35,2535,109,5.172
+L05,long,4339.0,A* (zero),True,4733.7,True,35,2535,109,5.466
+L05,long,4339.0,A* (haversine),True,4733.7,True,35,374,101,1.337
+L05,long,4339.0,A* (manhattan),True,4801.6,False,78,126,83,0.571
+L06,long,4838.4,Dijkstra,True,5693.8,True,72,3059,87,7.744
+L06,long,4838.4,A* (zero),True,5693.8,True,72,3059,87,6.357
+L06,long,4838.4,A* (haversine),True,5693.8,True,72,965,112,3.101
+L06,long,4838.4,A* (manhattan),True,6153.4,False,67,784,91,2.877
+L07,long,4024.6,Dijkstra,True,5804.8,True,71,2498,77,4.825
+L07,long,4024.6,A* (zero),True,5804.8,True,71,2498,77,5.629
+L07,long,4024.6,A* (haversine),True,5804.8,True,71,864,95,2.802
+L07,long,4024.6,A* (manhattan),True,6403.8,False,52,529,110,2.115
+L08,long,5218.0,Dijkstra,True,5659.7,True,71,2561,73,4.96
+L08,long,5218.0,A* (zero),True,5659.7,True,71,2561,73,4.936
+L08,long,5218.0,A* (haversine),True,5659.7,True,71,471,136,1.674
+L08,long,5218.0,A* (manhattan),True,6184.4,False,84,265,75,1.12
+L09,long,5110.6,Dijkstra,True,8485.7,True,105,3275,81,6.937
+L09,long,5110.6,A* (zero),True,8485.7,True,105,3275,81,6.758
+L09,long,5110.6,A* (haversine),True,8485.7,True,105,1468,118,5.108
+L09,long,5110.6,A* (manhattan),True,8511.5,False,112,474,99,1.996
+L10,long,4315.9,Dijkstra,True,5562.6,True,90,2536,66,5.114
+L10,long,4315.9,A* (zero),True,5562.6,True,90,2536,66,4.885
+L10,long,4315.9,A* (haversine),True,5562.6,True,90,899,90,2.745
+L10,long,4315.9,A* (manhattan),True,6356.5,False,68,527,111,1.981

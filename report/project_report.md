@@ -176,7 +176,7 @@ For the long-route test L05 (4.73 km), Dijkstra expanded 2,535 nodes and A\* wit
 
 **Effect of route length.** The number of nodes expanded grows with route length for every algorithm, because a longer route covers more of the network. A\* with haversine keeps a similar percentage saving across the three bands, which suggests the heuristic keeps pointing in the right direction regardless of distance.
 
-**Peak queue size.** A\* generally holds fewer entries in its priority queue than Dijkstra, because it discards frontier nodes that point away from the goal. This is visible in the results file and supports the memory argument for A\* on large networks.
+**Peak queue size.** The effect is mixed. On short and medium routes, A* with the haversine heuristic held a smaller priority queue than Dijkstra (mean peak 33 and 52 entries, against 59 and 80). On long routes it held a larger one (mean peak 102, against 84), because the heuristic keeps many promising frontier nodes alive while the search covers more of the network. A lower work count therefore does not automatically mean lower memory use.
 
 ---
 
